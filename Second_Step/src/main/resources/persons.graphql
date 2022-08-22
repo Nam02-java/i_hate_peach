@@ -1,0 +1,15 @@
+schema{
+    query: Query
+}
+
+type Query {
+    allPersons: [Person]
+    person(id: String): Person
+}
+
+type Person{
+    httplocalhost8019getFirstName: String
+    httplocalhost8019getLastName: String
+    httplocalhost8019getAddress: String
+    httplocalhost8019getMark: String
+}
